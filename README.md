@@ -1,10 +1,10 @@
-#COEP CyberCell SY Inductions 2026 - Mini CTF Write-up
+# COEP CyberCell SY Inductions 2026 - Mini CTF Write-up
 
 Hello! I am very new to the world of cybersecurity, and this induction CTF gave me a great opportunity to explore what "flags" actually are and the different ways to hunt them down. Overall, the experience was fantastic, and I felt like a newbie digital detective finding hidden hints to crack a case!
 
 Here is a documentation of my methodology and solutions for the challenges.
 
-Challenge 1: The Basics (Web Inspector)
+# Challenge 1: The Basics (Web Inspector)
 
 Concept Learned: Web page source code is visible to the client.
 
@@ -12,7 +12,7 @@ Solution: This was the easiest challenge. I learned that what we see on a webpag
 
 Flag: COEP{view_source_is_your_friend}
 
-Challenge 2: Mystery String
+# Challenge 2: Mystery String
 
 Concept Learned: The difference between Encoding and Encryption.
 
@@ -20,7 +20,7 @@ Solution: I was given a scrambled string: Q09FUHtiYXNlNjRfaXNfbm90X2VuY3J5cHRpb2
 
 Flag: COEP{base64_is_not_encryption}
 
-Challenge 3: Picture Perfect
+# Challenge 3: Picture Perfect
 
 Concept Learned: Files carry hidden luggage called Metadata.
 
@@ -28,7 +28,7 @@ Solution: The flag was hidden in a photograph! I didn't know that flags could be
 
 Flag: COEP{metadata_never_lies}
 
-Challenge 4: Polite Robots
+# Challenge 4: Polite Robots
 
 Concept Learned: How web crawlers interact with robots.txt.
 
@@ -36,7 +36,7 @@ Solution: I used to wonder if we could hack website passwords using the inspect 
 
 Flag: COEP{robots_know_secrets}
 
-Challenge 5: Where Was This Taken?
+# Challenge 5: Where Was This Taken?
 
 Concept Learned: OSINT (Open-Source Intelligence) and visual geolocation.
 
@@ -44,7 +44,7 @@ Solution: This challenge was a fun observational one. All GPS metadata was strip
 
 Flag: COEP{main_building}
 
-Challenge 6: Not What It Seems
+# Challenge 6: Not What It Seems
 
 Concept Learned: File Signatures (Magic Bytes) govern true file formats, not extensions.
 
